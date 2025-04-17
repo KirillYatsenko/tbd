@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "60f3c5e8-9375-4cd3-8d34-3f55b7e022db")
+	(uuid "464163b9-dcb4-4f2c-905e-be61cde2bd62")
 	(paper "A3")
 	(lib_symbols
 		(symbol "New_Library:STM32MP157FABx"
