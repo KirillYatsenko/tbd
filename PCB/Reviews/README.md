@@ -1,3 +1,7 @@
+We use the LFBGA 354 package. 
+
+For PWR unit review, we are looking for "S" in the "Pin type" in the  datasheet 
+
 How to do a review:
 
 
@@ -21,3 +25,5 @@ How to do a review:
   
   6)Use highlighted text for checked pins.
 ![Alt Text](https://github.com/KirillYatsenko/tbd/blob/main/PCB/Reviews/img_rev/PDF_INSTR.jpg)
+
+
