@@ -1,6 +1,6 @@
 How to do a review:
   1)Create a folder with your initials.
-  2)Copy the original datasheet to your folder.
+  2)Copy the original datasheet from the DOC folder to your folder.
   3)Open the PCB and the page with the symbol you want to review.
   4)Use Ctrl+F with this setup.
   
