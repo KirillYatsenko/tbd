@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "STM32MP157CAB3")(type "KiCad")(uri "${KIPRJMOD}/lib/STM32MP157CAB3.kicad_sym")(options "")(descr ""))
+  (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/New_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "STPMIC1APQR")(type "KiCad")(uri "${KIPRJMOD}/lib/STPMIC1APQR.kicad_sym")(options "")(descr ""))
+)
