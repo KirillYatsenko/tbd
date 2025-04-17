@@ -7,5 +7,6 @@ How to do a review:
 
 ![Alt Text](https://github.com/KirillYatsenko/tbd/blob/main/PCB/Reviews/img_rev/Kicad_INSTR.jpg)
 
-  5)Rename pdf datasheet in your dir. to P/N_INITIALS_REV
+  5)Rename the PDF datasheet in your dir. to P/N_INITIALS_REV
   6)Use highlighted text for checked pins.
+![Alt Text](https://github.com/KirillYatsenko/tbd/blob/main/PCB/Reviews/img_rev/PDF_INSTR.jpg)
