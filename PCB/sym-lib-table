@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/New_Library.kicad_sym")(options "")(descr ""))
   (lib (name "STPMIC1APQR")(type "KiCad")(uri "${KIPRJMOD}/lib/STPMIC1APQR.kicad_sym")(options "")(descr ""))
+  (lib (name "MT41K256M16TW-107_P")(type "KiCad")(uri "${KIPRJMOD}/lib/MT41K256M16TW-107_P.kicad_sym")(options "")(descr ""))
 )
