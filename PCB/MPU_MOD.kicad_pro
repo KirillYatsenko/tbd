@@ -639,6 +639,18 @@
     [
       "69214b2b-0971-43f8-ac76-9e3bbab8a034",
       "DDR"
+    ],
+    [
+      "ec317a3c-922b-4ac6-af1a-f2cdb70bc7c5",
+      "FLASH_SD"
+    ],
+    [
+      "fb3927f9-2e38-40e3-962e-323526569853",
+      "IO_Perph_Conn"
+    ],
+    [
+      "89de852b-0235-4524-80ff-6a19f9022d3f",
+      "RCC_BOOT_RST_DEBUG"
     ]
   ],
   "text_variables": {}
