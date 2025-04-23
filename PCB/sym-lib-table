@@ -8,4 +8,5 @@
   (lib (name "DS04-254-2-03BK-SMT")(type "KiCad")(uri "${KIPRJMOD}/lib/DS04-254-2-03BK-SMT.kicad_sym")(options "")(descr ""))
   (lib (name "PTS525SM15SMTR2LFS")(type "KiCad")(uri "${KIPRJMOD}/lib/PTS525SM15SMTR2LFS.kicad_sym")(options "")(descr ""))
   (lib (name "PTVS3V3S1UR")(type "KiCad")(uri "${KIPRJMOD}/lib/PTVS3V3S1UR.kicad_sym")(options "")(descr ""))
+  (lib (name "FTSH-107-01-L-DV-K-A")(type "KiCad")(uri "${KIPRJMOD}/lib/FTSH-107-01-L-DV-K-A.kicad_sym")(options "")(descr ""))
 )
