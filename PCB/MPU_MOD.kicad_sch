@@ -8721,7 +8721,7 @@
 		(instances
 			(project "MPU_MOD"
 				(path "/65890f61-d586-475b-928a-b635a5e4e59e"
-					(page "3")
+					(page "2")
 				)
 			)
 		)
@@ -8889,7 +8889,7 @@
 		(instances
 			(project "MPU_MOD"
 				(path "/65890f61-d586-475b-928a-b635a5e4e59e"
-					(page "2")
+					(page "3")
 				)
 			)
 		)
