@@ -10824,16 +10824,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 127) (xy 316.23 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "288df03b-7521-4ccd-be9b-6f43ebea9205")
-	)
-	(wire
-		(pts
 			(xy 166.37 91.44) (xy 166.37 90.17)
 		)
 		(stroke
@@ -11494,6 +11484,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 127) (xy 316.23 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b46359a-fc31-4dbc-9d99-1cceb9355292")
+	)
+	(wire
+		(pts
 			(xy 265.43 74.93) (xy 265.43 73.66)
 		)
 		(stroke
@@ -11541,16 +11541,6 @@
 			(type default)
 		)
 		(uuid "a61b4da2-e2f7-47d9-a24c-9cbf3cff68a4")
-	)
-	(wire
-		(pts
-			(xy 264.16 132.08) (xy 321.31 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a707fb24-9c1c-4dbc-b85f-beab9fac2f20")
 	)
 	(wire
 		(pts
@@ -11894,6 +11884,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 132.08) (xy 321.31 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec979f53-e46b-4e28-b819-7d9c5dcc1db0")
+	)
+	(wire
+		(pts
 			(xy 63.5 36.83) (xy 68.58 36.83)
 		)
 		(stroke
@@ -12152,6 +12152,28 @@
 		)
 		(uuid "c5ec7bd2-4a3a-4d62-ba05-37a919d22e19")
 	)
+	(global_label "UART4_TX_STM"
+		(shape input)
+		(at 254 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "02f834c4-dd25-4901-810e-762d095be76e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.4078 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PWR_ON"
 		(shape input)
 		(at 134.62 118.11 180)
@@ -12231,6 +12253,28 @@
 		(uuid "d95df927-dba1-4b16-9b4e-4d848aa59bc2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 18.9072 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART4_RX_STM"
+		(shape input)
+		(at 254 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3ad197c-7b64-4a78-aaca-707ab215448d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.1054 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
