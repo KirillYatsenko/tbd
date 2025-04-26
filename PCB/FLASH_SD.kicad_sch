@@ -4155,7 +4155,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MT29F4G08ABBDAH4_D:BGA63C80P10X12_900X1100X100N"
+		(property "Footprint" "lib:BGA63C80P10X12_900X1100X100N"
 			(at 86.36 139.7 0)
 			(effects
 				(font
@@ -4643,7 +4643,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 181.61 71.628 90)
 			(effects
 				(font
@@ -5066,7 +5066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HSP051-4M10:IC_HSP051-4M10"
+		(property "Footprint" "lib:IC_HSP051-4M10"
 			(at 255.27 106.68 0)
 			(effects
 				(font
@@ -5294,7 +5294,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 38.608 130.81 90)
 			(effects
 				(font
@@ -5825,7 +5825,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 29.718 130.81 90)
 			(effects
 				(font
@@ -5902,7 +5902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HSP051-4M10:IC_HSP051-4M10"
+		(property "Footprint" "lib:IC_HSP051-4M10"
 			(at 210.82 106.68 0)
 			(effects
 				(font
@@ -6065,7 +6065,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 55.118 130.81 90)
 			(effects
 				(font

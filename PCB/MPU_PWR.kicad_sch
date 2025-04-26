@@ -5,6 +5,201 @@
 	(uuid "3c712239-9b3c-4824-9b04-32ada28b4db6")
 	(paper "A3")
 	(lib_symbols
+		(symbol "CPH3225A:CPH3225A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CPH3225A"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "CPH3225A:CAPCP3225X100N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Seiko Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "11 mF (EDLC) Supercapacitor 3.3 V 1210 (3225 Metric) - -"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "1210 Seiko"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CPH3225A/Seiko/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "CPH3225A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/CPH3225A/Seiko/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "CPH3225A_0_0"
+				(rectangle
+					(start 0 -1.905)
+					(end 0.635 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.905 -1.905)
+					(end 2.54 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -310,7 +505,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "U2"
 				(at -156.21 -157.48 0)
 				(effects
 					(font
@@ -7664,6 +7859,25 @@
 				(pin bidirectional line
 					(at -3.81 11.43 0)
 					(length 5.08)
+					(name "USB_DP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "V14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "USBH_HS1_DP" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -3.81 8.89 0)
+					(length 5.08)
 					(name "USB_DM2"
 						(effects
 							(font
@@ -7680,25 +7894,6 @@
 					)
 					(alternate "USBH_HS2_DM" bidirectional line)
 					(alternate "USB_OTG_HS_DM" bidirectional line)
-				)
-				(pin bidirectional line
-					(at -3.81 8.89 0)
-					(length 5.08)
-					(name "USB_DP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "V14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "USBH_HS1_DP" bidirectional line)
 				)
 				(pin bidirectional line
 					(at -3.81 6.35 0)
@@ -8081,16 +8276,6 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(text "need to decide how to keep power for the RTC - a small super cap."
-		(exclude_from_sim no)
-		(at 134.112 20.828 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8afccd1c-4181-4aa8-aaa3-0b2bd713599e")
 	)
 	(text_box "C43 must be connected to VDD_ANA L3 and VSS_ANA L4\n"
 		(exclude_from_sim no)
@@ -10381,6 +10566,16 @@
 			(type default)
 		)
 		(uuid "2ed1e7d1-1d4e-4867-b23e-14002f92a326")
+	)
+	(wire
+		(pts
+			(xy 139.7 21.59) (xy 171.45 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f16e130-a1cf-4b46-b330-9491f7752cac")
 	)
 	(wire
 		(pts
@@ -16067,6 +16262,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 139.7 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cfb2f45-1bc7-4913-b119-56b664bbed32")
+		(property "Reference" "#PWR0162"
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dba4e887-bd7a-4fc6-a28d-2013b091cbfc")
+		)
+		(instances
+			(project "MPU_MOD"
+				(path "/65890f61-d586-475b-928a-b635a5e4e59e/f922126e-a4bd-4f88-a222-a0ba90de18ce"
+					(reference "#PWR0162")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 123.19 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17421,7 +17681,11 @@
 			(uuid "e1ac0740-1192-4456-96d1-02d382fe1e9a")
 		)
 		(instances
-			(project "MPU_MOD"
+			(project ""
+				(path "/65890f61-d586-475b-928a-b635a5e4e59e/9899e005-10ba-4bf4-b936-8d0d8a1813b9"
+					(reference "U2")
+					(unit 1)
+				)
 				(path "/65890f61-d586-475b-928a-b635a5e4e59e/f922126e-a4bd-4f88-a222-a0ba90de18ce"
 					(reference "U2")
 					(unit 1)
@@ -20038,6 +20302,157 @@
 			(project "MPU_MOD"
 				(path "/65890f61-d586-475b-928a-b635a5e4e59e/f922126e-a4bd-4f88-a222-a0ba90de18ce"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CPH3225A:CPH3225A")
+		(at 139.7 26.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e891356c-88c5-4253-884a-1cfceee0a578")
+		(property "Reference" "C1"
+			(at 143.51 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CPH3225A"
+			(at 143.51 26.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lib:CAPCP3225X100N"
+			(at 139.7 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Seiko Instruments"
+			(at 139.7 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "11 mF (EDLC) Supercapacitor 3.3 V 1210 (3225 Metric) - -"
+			(at 139.7 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1210 Seiko"
+			(at 139.7 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 139.7 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CPH3225A/Seiko/view-part/?ref=snap"
+			(at 139.7 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "CPH3225A"
+			(at 139.7 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 139.7 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CPH3225A/Seiko/view-part/?ref=eda"
+			(at 139.7 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d59e5ebb-c1a8-449f-b9ad-7c273cd4b85a")
+		)
+		(pin "1"
+			(uuid "01419710-cb02-4445-899f-15f978a37b8f")
+		)
+		(instances
+			(project ""
+				(path "/65890f61-d586-475b-928a-b635a5e4e59e/f922126e-a4bd-4f88-a222-a0ba90de18ce"
+					(reference "C1")
 					(unit 1)
 				)
 			)

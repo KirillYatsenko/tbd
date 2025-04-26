@@ -2215,7 +2215,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "U2"
 				(at -156.21 -157.48 0)
 				(effects
 					(font
@@ -9569,6 +9569,25 @@
 				(pin bidirectional line
 					(at -3.81 11.43 0)
 					(length 5.08)
+					(name "USB_DP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "V14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "USBH_HS1_DP" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -3.81 8.89 0)
+					(length 5.08)
 					(name "USB_DM2"
 						(effects
 							(font
@@ -9585,25 +9604,6 @@
 					)
 					(alternate "USBH_HS2_DM" bidirectional line)
 					(alternate "USB_OTG_HS_DM" bidirectional line)
-				)
-				(pin bidirectional line
-					(at -3.81 8.89 0)
-					(length 5.08)
-					(name "USB_DP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "V14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "USBH_HS1_DP" bidirectional line)
 				)
 				(pin bidirectional line
 					(at -3.81 6.35 0)
@@ -11131,6 +11131,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 142.24) (xy 266.7 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1de44822-bf13-4a66-825d-2f3d142fc2ef")
+	)
+	(wire
+		(pts
 			(xy 336.55 160.02) (xy 336.55 161.29)
 		)
 		(stroke
@@ -11181,6 +11191,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 162.56) (xy 266.7 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27785d61-7c50-4cd1-abb1-32555740145d")
+	)
+	(wire
+		(pts
 			(xy 267.97 27.94) (xy 266.7 27.94)
 		)
 		(stroke
@@ -11218,6 +11238,16 @@
 			(type default)
 		)
 		(uuid "298bac54-528f-495e-84f4-a813965b9071")
+	)
+	(wire
+		(pts
+			(xy 292.1 154.94) (xy 266.7 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b308b3f-baf6-484c-981e-079d52a8fc1b")
 	)
 	(wire
 		(pts
@@ -11288,6 +11318,16 @@
 			(type default)
 		)
 		(uuid "2ecb3b8a-e8b5-4ddb-af1c-b33fe4e6448a")
+	)
+	(wire
+		(pts
+			(xy 292.1 137.16) (xy 266.7 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2d7d6b-5eaf-4ad0-ada6-7c1c5b5389e1")
 	)
 	(wire
 		(pts
@@ -11471,6 +11511,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 157.48) (xy 266.7 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a6f708e-addf-4ba8-8473-68872816635c")
+	)
+	(wire
+		(pts
 			(xy 353.06 160.02) (xy 349.25 160.02)
 		)
 		(stroke
@@ -11571,6 +11621,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 127) (xy 266.7 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "573fecfc-693d-4fd6-b150-abb7b0a7a0ed")
+	)
+	(wire
+		(pts
 			(xy 341.63 152.4) (xy 336.55 152.4)
 		)
 		(stroke
@@ -11661,6 +11721,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 139.7) (xy 266.7 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f4065f6-206e-4524-9d48-31cfa8d8b45b")
+	)
+	(wire
+		(pts
 			(xy 336.55 152.4) (xy 336.55 153.67)
 		)
 		(stroke
@@ -11708,6 +11778,16 @@
 			(type default)
 		)
 		(uuid "62bcef74-84b3-4614-8b79-e6ca5d6ac4f2")
+	)
+	(wire
+		(pts
+			(xy 292.1 132.08) (xy 266.7 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62d60c5b-a539-4a90-9ed9-b36092389443")
 	)
 	(wire
 		(pts
@@ -11948,6 +12028,16 @@
 			(type default)
 		)
 		(uuid "72f7cedb-ea07-4482-9782-782d085d23eb")
+	)
+	(wire
+		(pts
+			(xy 292.1 129.54) (xy 266.7 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73165213-13ac-4e12-8149-ea174a15ec1f")
 	)
 	(wire
 		(pts
@@ -12291,6 +12381,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 147.32) (xy 266.7 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96b45a52-8675-4e3c-8b43-8ccab47cf4f3")
+	)
+	(wire
+		(pts
 			(xy 353.06 172.72) (xy 353.06 180.34)
 		)
 		(stroke
@@ -12348,6 +12448,26 @@
 			(type default)
 		)
 		(uuid "9c8aee9f-ccff-4c45-9034-42c59d8631a5")
+	)
+	(wire
+		(pts
+			(xy 292.1 144.78) (xy 266.7 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cca047f-f1d6-4f3c-8ae5-2b0c57836cc1")
+	)
+	(wire
+		(pts
+			(xy 292.1 149.86) (xy 266.7 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9da9d98c-2125-4936-8f80-0793f007a458")
 	)
 	(wire
 		(pts
@@ -12438,6 +12558,16 @@
 			(type default)
 		)
 		(uuid "a3183b1d-d7bf-472e-ab61-c8e7f7ab7071")
+	)
+	(wire
+		(pts
+			(xy 292.1 134.62) (xy 266.7 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5a2e2d5-0756-4621-a15e-34f6ec664ffb")
 	)
 	(wire
 		(pts
@@ -13191,6 +13321,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 152.4) (xy 266.7 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6355b15-c7c7-4545-8927-f59b3f333822")
+	)
+	(wire
+		(pts
 			(xy 318.77 138.43) (xy 323.85 138.43)
 		)
 		(stroke
@@ -13311,6 +13451,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 160.02) (xy 266.7 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1326815-399e-4c17-bac2-37741ff50c77")
+	)
+	(wire
+		(pts
 			(xy 326.39 52.07) (xy 314.96 52.07)
 		)
 		(stroke
@@ -13318,6 +13468,16 @@
 			(type default)
 		)
 		(uuid "f15d8d2e-b06a-42b9-8280-499cb744da59")
+	)
+	(wire
+		(pts
+			(xy 292.1 165.1) (xy 266.7 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1778f89-5aa1-4ea7-9e05-933d6890dad5")
 	)
 	(wire
 		(pts
@@ -13570,12 +13730,12 @@
 		(uuid "16a7dccb-1dfe-474e-b253-8452e9a5226f")
 	)
 	(label "DDR_DQ2"
-		(at 266.7 132.08 0)
+		(at 292.1 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "19e586e4-9947-4b82-b8f8-81fcc8494db8")
 	)
@@ -13600,12 +13760,12 @@
 		(uuid "20c70a53-386f-497a-a7ef-7497e9831701")
 	)
 	(label "DDR_DQ14"
-		(at 266.7 162.56 0)
+		(at 292.1 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "2686b8bf-3f98-4690-84ac-d79c2f719422")
 	)
@@ -13660,12 +13820,12 @@
 		(uuid "34608659-0981-47d0-825d-eb34606f2694")
 	)
 	(label "DDR_DQ0"
-		(at 266.7 127 0)
+		(at 292.1 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "363105d1-2f72-4c2b-8235-6a89df1a4244")
 	)
@@ -13810,12 +13970,12 @@
 		(uuid "48d4f73d-e7b0-4dca-8969-f886d258b9c5")
 	)
 	(label "DDR_DQ9"
-		(at 266.7 149.86 0)
+		(at 292.1 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "49ebe33b-27ae-435d-868c-1ea9d29753f3")
 	)
@@ -13860,12 +14020,12 @@
 		(uuid "5816a36f-1822-43e4-b274-984f1437c0c2")
 	)
 	(label "DDR_DQ10"
-		(at 266.7 152.4 0)
+		(at 292.1 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "5920f587-b84d-4c3b-839b-8840ce2ab963")
 	)
@@ -13880,12 +14040,12 @@
 		(uuid "593796a2-599f-4d4c-9db5-e6fb8b952267")
 	)
 	(label "DDR_DQ3"
-		(at 266.7 134.62 0)
+		(at 292.1 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "5f9f59fb-545e-4dfd-857b-4b9d92dc0407")
 	)
@@ -13940,12 +14100,12 @@
 		(uuid "6bdd1e54-18e4-4d35-a198-6544fc77e389")
 	)
 	(label "DDR_DQ11"
-		(at 266.7 154.94 0)
+		(at 292.1 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6db8593f-de07-41a5-8939-d75cb3ffcfbb")
 	)
@@ -14010,12 +14170,12 @@
 		(uuid "7dd9667d-f99c-4333-8244-57955a773f1c")
 	)
 	(label "DDR_DQ7"
-		(at 266.7 144.78 0)
+		(at 292.1 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "7eca9191-eb7e-4cbb-af1b-a71f3d8632c4")
 	)
@@ -14030,12 +14190,12 @@
 		(uuid "7f040d79-110a-461e-81d4-3287d86058d1")
 	)
 	(label "DDR_DQ15"
-		(at 266.7 165.1 0)
+		(at 292.1 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "7f5b9645-5852-4a34-92c8-a6d9944ed2b5")
 	)
@@ -14050,12 +14210,12 @@
 		(uuid "813c064c-2cbc-4ef4-9ce8-b5af7cf74f9c")
 	)
 	(label "DDR_DQ4"
-		(at 266.7 137.16 0)
+		(at 292.1 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "820b3921-a4ff-4bd5-b651-ed3fef9b0893")
 	)
@@ -14350,22 +14510,22 @@
 		(uuid "c2f86399-e7c7-422c-91cc-0cf9dd48a001")
 	)
 	(label "DDR_DQ1"
-		(at 266.7 129.54 0)
+		(at 292.1 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c7cc8c44-8b16-4b87-8740-c3bd5e7d35a8")
 	)
 	(label "DDR_DQ8"
-		(at 266.7 147.32 0)
+		(at 292.1 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c7d8e994-fd62-44ed-adb1-bf7e95f52d14")
 	)
@@ -14450,12 +14610,12 @@
 		(uuid "dcb622df-90ea-4445-a658-a506e85c8d83")
 	)
 	(label "DDR_DQ13"
-		(at 266.7 160.02 0)
+		(at 292.1 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "dd91456c-831c-43f9-a862-14f5122ada1c")
 	)
@@ -14530,12 +14690,12 @@
 		(uuid "e55611a6-7f06-4650-900b-65b969f87cf1")
 	)
 	(label "DDR_DQ6"
-		(at 266.7 142.24 0)
+		(at 292.1 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e5806322-3b98-4cb3-8690-45e6ff0ef4c3")
 	)
@@ -14600,12 +14760,12 @@
 		(uuid "ee093b47-3998-48c7-a775-85c988971269")
 	)
 	(label "DDR_DQ5"
-		(at 266.7 139.7 0)
+		(at 292.1 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ee5eb272-ee68-4ab0-9c88-fcd9368693eb")
 	)
@@ -14620,12 +14780,12 @@
 		(uuid "ee787ecc-8cbf-4fdf-ab34-b5e7eda2a14f")
 	)
 	(label "DDR_DQ12"
-		(at 266.7 157.48 0)
+		(at 292.1 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f3c2c23f-14df-481e-ae1a-21ea291e8497")
 	)
@@ -14698,6 +14858,51 @@
 			(justify right bottom)
 		)
 		(uuid "fff878e8-41b5-4223-9f18-4498d60ccad2")
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 281.305 124.46) (xy 295.91 124.46) (xy 295.91 167.64) (xy 281.305 167.64)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid aecc8ece-5922-4fa8-a68e-51ea0c11aa52)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 295.91 130.81 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6f8db4b4-0550-42d5-ae29-a5ccc6f77b84")
+		(property "Netclass" "DDR_DQ"
+			(at 296.672 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 430.53 447.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -14857,7 +15062,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 171.958 90)
 			(effects
 				(font
@@ -15066,7 +15271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 313.182 48.26 90)
 			(effects
 				(font
@@ -15888,7 +16093,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 132.588 90)
 			(effects
 				(font
@@ -15965,7 +16170,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MT41K256M16TW-107_P:BGA96C80P9X16_1400X800X120"
+		(property "Footprint" "lib:BGA96C80P9X16_1400X800X120"
 			(at 241.3 81.28 0)
 			(effects
 				(font
@@ -16343,7 +16548,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 163.068 90)
 			(effects
 				(font
@@ -16419,7 +16624,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 187.198 90)
 			(effects
 				(font
@@ -16626,7 +16831,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 102.108 90)
 			(effects
 				(font
@@ -16705,7 +16910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 270.002 85.09 90)
 			(effects
 				(font
@@ -16781,7 +16986,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 159.258 90)
 			(effects
 				(font
@@ -17158,7 +17363,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 144.018 90)
 			(effects
 				(font
@@ -17234,7 +17439,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 183.388 90)
 			(effects
 				(font
@@ -17376,7 +17581,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 94.488 90)
 			(effects
 				(font
@@ -17603,7 +17808,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 140.208 90)
 			(effects
 				(font
@@ -17849,7 +18054,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 147.828 90)
 			(effects
 				(font
@@ -17926,7 +18131,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 320.04 65.278 90)
 			(effects
 				(font
@@ -18002,7 +18207,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 117.348 90)
 			(effects
 				(font
@@ -18079,7 +18284,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 320.04 75.438 90)
 			(effects
 				(font
@@ -18243,7 +18448,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 168.402 146.05 90)
 			(effects
 				(font
@@ -18404,7 +18609,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 113.538 90)
 			(effects
 				(font
@@ -18480,7 +18685,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 179.578 90)
 			(effects
 				(font
@@ -18706,7 +18911,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 124.968 90)
 			(effects
 				(font
@@ -18782,7 +18987,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 191.008 90)
 			(effects
 				(font
@@ -19093,7 +19298,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 175.768 90)
 			(effects
 				(font
@@ -19556,7 +19761,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 105.918 90)
 			(effects
 				(font
@@ -19632,7 +19837,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 121.158 90)
 			(effects
 				(font
@@ -20876,6 +21081,10 @@
 					(reference "U2")
 					(unit 2)
 				)
+				(path "/65890f61-d586-475b-928a-b635a5e4e59e/9899e005-10ba-4bf4-b936-8d0d8a1813b9"
+					(reference "U2")
+					(unit 2)
+				)
 			)
 		)
 	)
@@ -20904,7 +21113,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 98.298 90)
 			(effects
 				(font
@@ -21046,7 +21255,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 128.778 90)
 			(effects
 				(font
@@ -21122,7 +21331,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 136.398 90)
 			(effects
 				(font
@@ -21733,7 +21942,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 155.448 90)
 			(effects
 				(font
@@ -22149,7 +22358,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 109.728 90)
 			(effects
 				(font

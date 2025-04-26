@@ -474,27 +474,67 @@
         "wire_width": 6
       },
       {
-        "name": "DDR_DQS0",
+        "name": "DDR_DQ",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "schematic_color": "rgb(255, 45, 64)"
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Default",
-        "pattern": "DDR_DQS0_P"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DDR_DQS0_N"
-      }
-    ]
+    "netclass_assignments": {
+      "/DDR/DDR_DQ0": [
+        "DDR_DQ"
+      ],
+      "/DDR/DDR_DQ1": [
+        "DDR_DQ"
+      ],
+      "/DDR/DDR_DQ10": [
+        "DDR_DQ"
+      ],
+      "/DDR/DDR_DQ11": [
+        "DDR_DQ"
+      ],
+      "/DDR/DDR_DQ12": [
+        "DDR_DQ"
+      ],
+      "/DDR/DDR_DQ13": [
+        "DDR_DQ"
+      ],
+      "/DDR/DDR_DQ14": [
+        "DDR_DQ"
+      ],
+      "/DDR/DDR_DQ15": [
+        "DDR_DQ"
+      ],
+      "/DDR/DDR_DQ2": [
+        "DDR_DQ"
+      ],
+      "/DDR/DDR_DQ3": [
+        "DDR_DQ"
+      ],
+      "/DDR/DDR_DQ4": [
+        "DDR_DQ"
+      ],
+      "/DDR/DDR_DQ5": [
+        "DDR_DQ"
+      ],
+      "/DDR/DDR_DQ6": [
+        "DDR_DQ"
+      ],
+      "/DDR/DDR_DQ7": [
+        "DDR_DQ"
+      ],
+      "/DDR/DDR_DQ8": [
+        "DDR_DQ"
+      ],
+      "/DDR/DDR_DQ9": [
+        "DDR_DQ"
+      ]
+    },
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -651,6 +691,10 @@
     [
       "89de852b-0235-4524-80ff-6a19f9022d3f",
       "RCC_BOOT_RST_DEBUG"
+    ],
+    [
+      "9899e005-10ba-4bf4-b936-8d0d8a1813b9",
+      "HS_intrf"
     ]
   ],
   "text_variables": {}

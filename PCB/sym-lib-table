@@ -14,4 +14,6 @@
   (lib (name "BQ25606RGER")(type "KiCad")(uri "${KIPRJMOD}/lib/BQ25606RGER.kicad_sym")(options "")(descr ""))
   (lib (name "TPS2121RUXR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS2121RUXR.kicad_sym")(options "")(descr ""))
   (lib (name "USB4215-03-A_REVA")(type "KiCad")(uri "${KIPRJMOD}/lib/USB4215-03-A_REVA.kicad_sym")(options "")(descr ""))
+  (lib (name "CPH3225A")(type "KiCad")(uri "${KIPRJMOD}/lib/CPH3225A.kicad_sym")(options "")(descr ""))
+  (lib (name "NX2012SA-32.768K-STD-MUB-1")(type "KiCad")(uri "${KIPRJMOD}/lib/NX2012SA-32.768K-STD-MUB-1.kicad_sym")(options "")(descr ""))
 )

@@ -1824,7 +1824,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "U2"
 				(at -156.21 -157.48 0)
 				(effects
 					(font
@@ -9178,6 +9178,25 @@
 				(pin bidirectional line
 					(at -3.81 11.43 0)
 					(length 5.08)
+					(name "USB_DP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "V14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "USBH_HS1_DP" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -3.81 8.89 0)
+					(length 5.08)
 					(name "USB_DM2"
 						(effects
 							(font
@@ -9194,25 +9213,6 @@
 					)
 					(alternate "USBH_HS2_DM" bidirectional line)
 					(alternate "USB_OTG_HS_DM" bidirectional line)
-				)
-				(pin bidirectional line
-					(at -3.81 8.89 0)
-					(length 5.08)
-					(name "USB_DP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "V14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "USBH_HS1_DP" bidirectional line)
 				)
 				(pin bidirectional line
 					(at -3.81 6.35 0)
@@ -12466,7 +12466,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 257.81 75.438 90)
 			(effects
 				(font
@@ -12675,7 +12675,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HSP051-4M10:IC_HSP051-4M10"
+		(property "Footprint" "lib:IC_HSP051-4M10"
 			(at 260.35 162.56 0)
 			(effects
 				(font
@@ -12903,7 +12903,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 70.358 31.75 90)
 			(effects
 				(font
@@ -12982,7 +12982,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 155.702 86.36 90)
 			(effects
 				(font
@@ -13192,7 +13192,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DS04-254-2-03BK-SMT:SW_DS04-254-2-03BK-SMT"
+		(property "Footprint" "lib:SW_DS04-254-2-03BK-SMT"
 			(at 133.35 73.66 0)
 			(effects
 				(font
@@ -13527,7 +13527,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 251.968 63.5 90)
 			(effects
 				(font
@@ -13898,7 +13898,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 168.148 86.36 90)
 			(effects
 				(font
@@ -14111,7 +14111,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PTS525SM15SMTR2LFS:SW_PTS525SM15SMTR2LFS"
+		(property "Footprint" "lib:SW_PTS525SM15SMTR2LFS"
 			(at 66.04 48.26 0)
 			(effects
 				(font
@@ -14297,7 +14297,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HSP051-4M10:IC_HSP051-4M10"
+		(property "Footprint" "lib:IC_HSP051-4M10"
 			(at 302.26 162.56 0)
 			(effects
 				(font
@@ -14801,7 +14801,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 243.84 53.848 90)
 			(effects
 				(font
@@ -14877,7 +14877,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 282.448 38.1 90)
 			(effects
 				(font
@@ -14965,7 +14965,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 150.368 86.36 90)
 			(effects
 				(font
@@ -15593,7 +15593,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 379.222 129.54 90)
 			(effects
 				(font
@@ -16841,6 +16841,10 @@
 		(instances
 			(project "MPU_MOD"
 				(path "/65890f61-d586-475b-928a-b635a5e4e59e/89de852b-0235-4524-80ff-6a19f9022d3f"
+					(reference "U2")
+					(unit 5)
+				)
+				(path "/65890f61-d586-475b-928a-b635a5e4e59e/9899e005-10ba-4bf4-b936-8d0d8a1813b9"
 					(reference "U2")
 					(unit 5)
 				)
