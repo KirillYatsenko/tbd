@@ -14871,7 +14871,7 @@
 			(fill
 				(type none)
 			)
-			(uuid aecc8ece-5922-4fa8-a68e-51ea0c11aa52)
+			(uuid a54afc81-af1e-41b9-b641-27d5170eb136)
 		)
 	)
 	(netclass_flag ""
@@ -21078,10 +21078,6 @@
 		(instances
 			(project "MPU_MOD"
 				(path "/65890f61-d586-475b-928a-b635a5e4e59e/69214b2b-0971-43f8-ac76-9e3bbab8a034"
-					(reference "U2")
-					(unit 2)
-				)
-				(path "/65890f61-d586-475b-928a-b635a5e4e59e/9899e005-10ba-4bf4-b936-8d0d8a1813b9"
 					(reference "U2")
 					(unit 2)
 				)

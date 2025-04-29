@@ -1,5 +1,5 @@
 
-(footprint BGA153N50P14X14_1300X1150X100N (layer F.Cu) (tedit 680957A8)
+(footprint BGA153N50P14X14_1300X1150X100N (layer F.Cu) (tedit 680FC524)
   (descr "")
   (attr smd)
   (fp_text reference REF** (at -3.575 -8.135 0) (layer F.SilkS)
