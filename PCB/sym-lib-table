@@ -17,4 +17,5 @@
   (lib (name "CPH3225A")(type "KiCad")(uri "${KIPRJMOD}/lib/CPH3225A.kicad_sym")(options "")(descr ""))
   (lib (name "NX2012SA-32.768K-STD-MUB-1")(type "KiCad")(uri "${KIPRJMOD}/lib/NX2012SA-32.768K-STD-MUB-1.kicad_sym")(options "")(descr ""))
   (lib (name "EMMC04G-W627-M06U")(type "KiCad")(uri "${KIPRJMOD}/lib/EMMC04G-W627-M06U.kicad_sym")(options "")(descr ""))
+  (lib (name "LBEE5PK2AE")(type "KiCad")(uri "${KIPRJMOD}/lib/LBEE5PK2AE.kicad_sym")(options "")(descr ""))
 )

@@ -695,6 +695,14 @@
     [
       "9899e005-10ba-4bf4-b936-8d0d8a1813b9",
       "HS_intrf"
+    ],
+    [
+      "7b5607bb-cf07-41c5-a9f4-2640606f574f",
+      "WIFI_BLE"
+    ],
+    [
+      "8e6695b4-f550-48fc-80fa-082e6ac5485e",
+      "DAC"
     ]
   ],
   "text_variables": {}

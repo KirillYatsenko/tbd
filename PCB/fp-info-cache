@@ -1,4 +1,4 @@
-25238629346749178
+25240376070521196
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101387,6 +101387,13 @@ TVS_PTVS3V3S1UR
 0
 2
 2
+lib
+XCVR_LBEE5PK2AE-771
+
+
+0
+77
+77
 lib
 XTAL_NX2012SA-32.768K-STD-MUB-1
 

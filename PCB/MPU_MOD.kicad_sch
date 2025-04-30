@@ -90,6 +90,48 @@
 		)
 	)
 	(sheet
+		(at 254 161.29)
+		(size 52.07 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7b5607bb-cf07-41c5-a9f4-2640606f574f")
+		(property "Sheetname" "WIFI_BLE"
+			(at 254 160.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "WIFI_BLE.kicad_sch"
+			(at 254 192.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MPU_MOD"
+				(path "/65890f61-d586-475b-928a-b635a5e4e59e"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 254 72.39)
 		(size 49.53 30.48)
 		(exclude_from_sim no)
@@ -127,6 +169,48 @@
 			(project "MPU_MOD"
 				(path "/65890f61-d586-475b-928a-b635a5e4e59e"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 254 204.47)
+		(size 53.34 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8e6695b4-f550-48fc-80fa-082e6ac5485e")
+		(property "Sheetname" "DAC"
+			(at 254 203.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DAC.kicad_sch"
+			(at 254 238.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MPU_MOD"
+				(path "/65890f61-d586-475b-928a-b635a5e4e59e"
+					(page "10")
 				)
 			)
 		)
