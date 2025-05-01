@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "697da0c7-3865-409b-831b-f2423f46f5ce")
 	(paper "A3")
+	(title_block
+		(comment 1 "Author: Mykola Grodskyi")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers

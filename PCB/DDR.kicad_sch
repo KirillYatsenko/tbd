@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "242e935c-38e2-4043-8e05-d90b2477e15c")
 	(paper "A3")
+	(title_block
+		(comment 1 "Author: Mykola Grodskyi")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers

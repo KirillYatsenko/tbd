@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "65890f61-d586-475b-928a-b635a5e4e59e")
 	(paper "A3")
+	(title_block
+		(comment 1 "Author: Mykola Grodskyi")
+	)
 	(lib_symbols)
 	(sheet
 		(at 323.85 74.93)

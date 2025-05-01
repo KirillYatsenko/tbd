@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "3c712239-9b3c-4824-9b04-32ada28b4db6")
 	(paper "A3")
+	(title_block
+		(comment 1 "Author: Mykola Grodskyi")
+	)
 	(lib_symbols
 		(symbol "CPH3225A:CPH3225A"
 			(pin_names

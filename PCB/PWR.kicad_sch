@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "ed853ba3-c316-4d4f-a9fb-f0dbfeff877c")
 	(paper "A3")
+	(title_block
+		(comment 1 "Author: Mykola Grodskyi")
+	)
 	(lib_symbols
 		(symbol "BQ25606RGER:BQ25606RGER"
 			(pin_names

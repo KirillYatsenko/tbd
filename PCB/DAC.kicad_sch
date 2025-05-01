@@ -2,8 +2,11 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "7483a773-c418-475d-b410-44755c660967")
+	(uuid "3180de5e-bb05-49d2-8701-d493f05b7609")
 	(paper "A4")
+	(title_block
+		(comment 1 "Author: Mykola Grodskyi")
+	)
 	(lib_symbols)
 	(image
 		(at 67.31 40.64)
