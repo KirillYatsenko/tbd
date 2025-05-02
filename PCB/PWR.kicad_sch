@@ -1599,265 +1599,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:SolderJumper_3_Bridged12"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_3_Bridged12"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Solder Jumper SPDT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Bridged12*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_3_Bridged12_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.016) (xy -1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 0.508)
-					(end -0.508 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -1.016 -1.016)
-					(mid -2.0276 0)
-					(end -1.016 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.016 -1.016)
-					(mid -2.0276 0)
-					(end -1.016 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.508 1.016)
-					(end 0.508 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 1.016)
-					(mid 2.0276 0)
-					(end 1.016 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 1.016)
-					(mid 2.0276 0)
-					(end 1.016 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_3_Bridged12_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PTS525SM15SMTR2LFS:PTS525SM15SMTR2LFS"
 			(pin_names
 				(offset 1.016)
@@ -4838,6 +4579,12 @@
 		(uuid "d43692cc-07f6-48b5-9976-4f2a80a0bfe9")
 	)
 	(junction
+		(at 85.09 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4b18ec6-c43d-4a8f-90d4-c5c69583bd8c")
+	)
+	(junction
 		(at 377.19 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5012,6 +4759,16 @@
 			(type default)
 		)
 		(uuid "0c570e18-6aaf-483c-9081-58e5ad33ca9d")
+	)
+	(wire
+		(pts
+			(xy 85.09 167.64) (xy 105.41 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c77d9b7-d46c-41bc-9917-29e81ba6b8a9")
 	)
 	(wire
 		(pts
@@ -5232,6 +4989,16 @@
 			(type default)
 		)
 		(uuid "213406fc-b47e-4c7a-829a-9f4e923927c9")
+	)
+	(wire
+		(pts
+			(xy 95.25 175.26) (xy 93.98 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21a8aeb4-c683-4f6b-9d6c-0e2ee8d724e4")
 	)
 	(wire
 		(pts
@@ -5562,6 +5329,16 @@
 			(type default)
 		)
 		(uuid "45ed7a2c-3cb5-410a-aa23-4a2f90c43a88")
+	)
+	(wire
+		(pts
+			(xy 83.82 175.26) (xy 85.09 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46083416-57a8-4337-bf7e-736293bd78b2")
 	)
 	(wire
 		(pts
@@ -6095,16 +5872,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 172.72) (xy 99.06 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8185745e-91f3-4c7f-8455-bc7b2fc625c8")
-	)
-	(wire
-		(pts
 			(xy 280.67 226.06) (xy 309.88 226.06)
 		)
 		(stroke
@@ -6335,17 +6102,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 166.37) (xy 105.41 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9eceb7cf-f940-4fed-ad4e-50932132a5d8")
-	)
-	(wire
-		(pts
-			(xy 105.41 166.37) (xy 105.41 163.83)
+			(xy 105.41 167.64) (xy 105.41 163.83)
 		)
 		(stroke
 			(width 0)
@@ -6392,6 +6149,16 @@
 			(type default)
 		)
 		(uuid "a222eab9-a4e4-4736-ba54-b13a32d8cca0")
+	)
+	(wire
+		(pts
+			(xy 85.09 175.26) (xy 85.09 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3408836-8bf7-48b4-bbf8-8bf30a129031")
 	)
 	(wire
 		(pts
@@ -6505,6 +6272,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 175.26) (xy 86.36 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bad8f6e6-e016-4744-ae4a-fa7b89839472")
+	)
+	(wire
+		(pts
 			(xy 369.57 35.56) (xy 370.84 35.56)
 		)
 		(stroke
@@ -6542,6 +6319,16 @@
 			(type default)
 		)
 		(uuid "bcd95df9-ae6c-42e7-b51a-1ad5a3ef5e39")
+	)
+	(wire
+		(pts
+			(xy 34.29 175.26) (xy 76.2 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf6b4df-3447-4022-839b-3e26dcd0fe9a")
 	)
 	(wire
 		(pts
@@ -6835,16 +6622,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 172.72) (xy 88.9 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbd1ed25-d3e4-45ea-873a-712ea812cab6")
-	)
-	(wire
-		(pts
 			(xy 39.37 147.32) (xy 39.37 156.21)
 		)
 		(stroke
@@ -7112,16 +6889,6 @@
 			(type default)
 		)
 		(uuid "f7a39708-4164-4917-b4b5-c18d3866f4e0")
-	)
-	(wire
-		(pts
-			(xy 93.98 168.91) (xy 93.98 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7bfaab5-5310-4d38-b2f4-11f2317d9db7")
 	)
 	(wire
 		(pts
@@ -9183,7 +8950,7 @@
 	)
 	(global_label "CHRG_OFF"
 		(shape input)
-		(at 39.37 172.72 180)
+		(at 34.29 175.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9193,7 +8960,7 @@
 		)
 		(uuid "1e5f0e8b-8a5f-466a-9c01-e0847a0bf0ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.769 172.72 0)
+			(at 21.689 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10005,71 +9772,6 @@
 			(project "MPU_MOD"
 				(path "/65890f61-d586-475b-928a-b635a5e4e59e/355c85ef-822d-4607-91cf-41bd60068331"
 					(reference "#PWR0122")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 99.06 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "12f7fb87-bada-45f2-8aff-ae9d720b4e0b")
-		(property "Reference" "#PWR0126"
-			(at 99.06 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.06 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df5bbb68-c32b-45a4-9bda-a0dba843be62")
-		)
-		(instances
-			(project "MPU_MOD"
-				(path "/65890f61-d586-475b-928a-b635a5e4e59e/355c85ef-822d-4607-91cf-41bd60068331"
-					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -11193,6 +10895,83 @@
 			(project "MPU_MOD"
 				(path "/65890f61-d586-475b-928a-b635a5e4e59e/355c85ef-822d-4607-91cf-41bd60068331"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 90.17 175.26 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36e956db-d43b-4ace-b8d3-5bda38d9892c")
+		(property "Reference" "R91"
+			(at 88.646 177.292 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 92.964 177.292 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 90.17 177.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 90.17 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" ""
+			(at 90.17 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cff9936d-0aa0-4880-8e90-6d09bc41584d")
+		)
+		(pin "2"
+			(uuid "7c7616e5-38e4-48a2-851e-e7b0e24296cd")
+		)
+		(instances
+			(project "MPU_MOD"
+				(path "/65890f61-d586-475b-928a-b635a5e4e59e/355c85ef-822d-4607-91cf-41bd60068331"
+					(reference "R91")
 					(unit 1)
 				)
 			)
@@ -13297,78 +13076,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_3_Bridged12")
-		(at 93.98 172.72 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62201af8-727d-4b10-8765-4d74f1b9df35")
-		(property "Reference" "JP4"
-			(at 93.98 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_3_Bridged12"
-			(at 93.98 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm"
-			(at 93.98 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 93.98 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "d49daa52-6670-4fdf-94d9-85e604b069ad")
-		)
-		(pin "1"
-			(uuid "24655e3c-b2f3-4115-9419-f5ed2c85d774")
-		)
-		(pin "2"
-			(uuid "0f5f383e-734c-4ea9-9a19-d99a89878b61")
-		)
-		(instances
-			(project "MPU_MOD"
-				(path "/65890f61-d586-475b-928a-b635a5e4e59e/355c85ef-822d-4607-91cf-41bd60068331"
-					(reference "JP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+36V")
 		(at 397.51 35.56 0)
 		(unit 1)
@@ -13429,6 +13136,71 @@
 			(project "MPU_MOD"
 				(path "/65890f61-d586-475b-928a-b635a5e4e59e/355c85ef-822d-4607-91cf-41bd60068331"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 175.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63ff8e4b-ac9e-424b-b62a-ea281c7ac699")
+		(property "Reference" "#PWR0192"
+			(at 101.6 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d86f251-f88a-4c76-b897-6551c6ce017e")
+		)
+		(instances
+			(project "MPU_MOD"
+				(path "/65890f61-d586-475b-928a-b635a5e4e59e/355c85ef-822d-4607-91cf-41bd60068331"
+					(reference "#PWR0192")
 					(unit 1)
 				)
 			)
@@ -15056,6 +14828,83 @@
 			(project "MPU_MOD"
 				(path "/65890f61-d586-475b-928a-b635a5e4e59e/355c85ef-822d-4607-91cf-41bd60068331"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 80.01 175.26 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "92ad68ef-f5c3-4db0-bef0-7d6392c928dd")
+		(property "Reference" "R90"
+			(at 78.486 177.292 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 82.804 177.292 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 80.01 177.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 80.01 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" ""
+			(at 80.01 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4caa1e08-6fd7-4d88-87ea-e8eeee3470d2")
+		)
+		(pin "2"
+			(uuid "91ed0636-1ea3-47e8-9104-a84162284d28")
+		)
+		(instances
+			(project "MPU_MOD"
+				(path "/65890f61-d586-475b-928a-b635a5e4e59e/355c85ef-822d-4607-91cf-41bd60068331"
+					(reference "R90")
 					(unit 1)
 				)
 			)

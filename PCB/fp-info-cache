@@ -1,4 +1,4 @@
-25240376070521196
+25243868360573344
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101339,6 +101339,13 @@ IC_TPS2121RUXR
 16
 16
 lib
+MOLEX_73412-0110
+
+
+0
+4
+4
+lib
 QFN40P600X500X80-45N
 
 
@@ -101368,6 +101375,13 @@ SON50P300X200X60-10N
 10
 lib
 SW_DS04-254-2-03BK-SMT
+
+
+0
+6
+6
+lib
+SW_EVQ-9P701P
 
 
 0

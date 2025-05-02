@@ -18,4 +18,6 @@
   (lib (name "NX2012SA-32.768K-STD-MUB-1")(type "KiCad")(uri "${KIPRJMOD}/lib/NX2012SA-32.768K-STD-MUB-1.kicad_sym")(options "")(descr ""))
   (lib (name "EMMC04G-W627-M06U")(type "KiCad")(uri "${KIPRJMOD}/lib/EMMC04G-W627-M06U.kicad_sym")(options "")(descr ""))
   (lib (name "LBEE5PK2AE")(type "KiCad")(uri "${KIPRJMOD}/lib/LBEE5PK2AE.kicad_sym")(options "")(descr ""))
+  (lib (name "73412-0110")(type "KiCad")(uri "${KIPRJMOD}/lib/73412-0110.kicad_sym")(options "")(descr ""))
+  (lib (name "EVQ-9P701P")(type "KiCad")(uri "${KIPRJMOD}/lib/EVQ-9P701P.kicad_sym")(options "")(descr ""))
 )

@@ -17010,6 +17010,45 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "RECHECK ALL PINS"
+		(exclude_from_sim no)
+		(at 127.762 -36.322 0)
+		(effects
+			(font
+				(size 12.7 12.7)
+				(thickness 2.54)
+				(bold yes)
+				(color 255 6 19 1)
+			)
+		)
+		(uuid "048a1830-0d41-4dc1-a473-8abe25abb3fa")
+	)
+	(text "RECHECK ALL PINS"
+		(exclude_from_sim no)
+		(at 137.922 93.98 0)
+		(effects
+			(font
+				(size 12.7 12.7)
+				(thickness 2.54)
+				(bold yes)
+				(color 255 6 19 1)
+			)
+		)
+		(uuid "71f9e490-083d-4fd3-ab97-50441350d72b")
+	)
+	(text "RECHECK ALL PINS"
+		(exclude_from_sim no)
+		(at -81.534 -47.498 0)
+		(effects
+			(font
+				(size 12.7 12.7)
+				(thickness 2.54)
+				(bold yes)
+				(color 255 6 19 1)
+			)
+		)
+		(uuid "cbaf1e39-7c98-45f1-945a-6a45bba0410c")
+	)
 	(text_box "I2S3 BL\n\n"
 		(exclude_from_sim no)
 		(at -95.25 -69.85 0)
