@@ -532,6 +532,18 @@
       ],
       "/DDR/DDR_DQ9": [
         "DDR_DQ"
+      ],
+      "/DDR/DDR_DQS0_N": [
+        "100_ohm_diff"
+      ],
+      "/DDR/DDR_DQS0_P": [
+        "100_ohm_diff"
+      ],
+      "/DDR/DDR_DQS1_N": [
+        "100_ohm_diff"
+      ],
+      "/DDR/DDR_DQS1_P": [
+        "100_ohm_diff"
       ]
     },
     "netclass_patterns": []

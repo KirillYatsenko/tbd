@@ -20,4 +20,6 @@
   (lib (name "LBEE5PK2AE")(type "KiCad")(uri "${KIPRJMOD}/lib/LBEE5PK2AE.kicad_sym")(options "")(descr ""))
   (lib (name "73412-0110")(type "KiCad")(uri "${KIPRJMOD}/lib/73412-0110.kicad_sym")(options "")(descr ""))
   (lib (name "EVQ-9P701P")(type "KiCad")(uri "${KIPRJMOD}/lib/EVQ-9P701P.kicad_sym")(options "")(descr ""))
+  (lib (name "FUSB302BMPX")(type "KiCad")(uri "${KIPRJMOD}/lib/FUSB302BMPX.kicad_sym")(options "")(descr ""))
+  (lib (name "ESDA7P120-1U1M")(type "KiCad")(uri "${KIPRJMOD}/lib/ESDA7P120-1U1M.kicad_sym")(options "")(descr ""))
 )
