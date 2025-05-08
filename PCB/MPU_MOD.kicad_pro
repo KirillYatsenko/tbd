@@ -219,6 +219,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -513,7 +517,9 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "VDD_DDR": "rgb(255, 233, 136)"
+    },
     "netclass_assignments": {
       "/DDR/DDR_A0": [
         "DDR_AC"
@@ -639,16 +645,20 @@
         "DDR_AC"
       ],
       "/DDR/DDR_DQS0_N": [
-        "100_ohm_diff"
+        "100_ohm_diff",
+        "DDR_DQ"
       ],
       "/DDR/DDR_DQS0_P": [
-        "100_ohm_diff"
+        "100_ohm_diff",
+        "DDR_DQ"
       ],
       "/DDR/DDR_DQS1_N": [
-        "100_ohm_diff"
+        "100_ohm_diff",
+        "DDR_DQ"
       ],
       "/DDR/DDR_DQS1_P": [
-        "100_ohm_diff"
+        "100_ohm_diff",
+        "DDR_DQ"
       ],
       "/DDR/DDR_ODT": [
         "DDR_AC"
