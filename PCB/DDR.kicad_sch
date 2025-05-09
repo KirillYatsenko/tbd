@@ -11574,6 +11574,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 162.56) (xy 292.1 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f423ba1-d201-4038-a0f0-3be4d7a98804")
+	)
+	(wire
+		(pts
 			(xy 323.85 73.66) (xy 326.39 73.66)
 		)
 		(stroke
@@ -11811,16 +11821,6 @@
 			(type default)
 		)
 		(uuid "58da1b74-1820-47c3-b3aa-22f16e8475d3")
-	)
-	(wire
-		(pts
-			(xy 266.7 162.56) (xy 292.1 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "598f8a0b-62a9-401c-9546-2376e7c49142")
 	)
 	(wire
 		(pts
@@ -13294,16 +13294,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 152.4) (xy 292.1 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd4ab468-1b18-433b-8d7b-4233d86c4cfb")
-	)
-	(wire
-		(pts
 			(xy 318.77 127) (xy 323.85 127)
 		)
 		(stroke
@@ -13951,6 +13941,16 @@
 			(type default)
 		)
 		(uuid "fb532f36-73a1-4b49-8a05-e3d7ef839745")
+	)
+	(wire
+		(pts
+			(xy 266.7 152.4) (xy 292.1 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcff1e90-c7e6-4279-8182-d9b0121fc2de")
 	)
 	(wire
 		(pts
@@ -14603,7 +14603,7 @@
 		(uuid "813c064c-2cbc-4ef4-9ce8-b5af7cf74f9c")
 	)
 	(label "DDR_DQ4"
-		(at 292.1 162.56 180)
+		(at 292.1 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15153,7 +15153,7 @@
 		(uuid "ee093b47-3998-48c7-a775-85c988971269")
 	)
 	(label "DDR_DQ5"
-		(at 292.1 152.4 180)
+		(at 292.1 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
