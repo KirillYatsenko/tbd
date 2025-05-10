@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
@@ -260,7 +260,6 @@
       "unconnected-(U301F-USB_DP1-PadV14)",
       "unconnected-(U301D-PF10-PadU9)",
       "unconnected-(U301C-PA10-PadT16)",
-      "unconnected-(U301B-DDR_A15-PadL16)",
       "unconnected-(U301C-PB0-PadW3)",
       "unconnected-(U301D-PE13-PadC2)",
       "unconnected-(U301C-PC4-PadW4)",
@@ -302,7 +301,6 @@
       "unconnected-(U401-NC__3-PadL9)",
       "unconnected-(U401-NC-PadJ1)",
       "unconnected-(U401-NC__2-PadL1)",
-      "unconnected-(U401-NC__4-PadM7)",
       "unconnected-(U401-NC__1-PadJ9)",
       "Net-(U501B-NC_5-PadH1)",
       "Net-(U501A-NC_1-PadA1)",

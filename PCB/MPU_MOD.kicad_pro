@@ -58,12 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "via_diameter|96420000|71670000|eb7ed180-5cde-40a5-b9d1-7dba9992802c|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -545,6 +540,9 @@
         "DDR_AC"
       ],
       "/DDR/DDR_A14": [
+        "DDR_AC"
+      ],
+      "/DDR/DDR_A15": [
         "DDR_AC"
       ],
       "/DDR/DDR_A2": [
