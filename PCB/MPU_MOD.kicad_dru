@@ -1,7 +1,7 @@
 (version 1)
 (rule "target length and skew"
       (condition "A.hasNetclass('DDR_DQ')")
-      (constraint length (min 95mm) (opt 100mm) (max 105mm))
+      (constraint length (min 25.2mm) (opt 26.2mm) (max 26.2mm))
       (constraint skew (max 0.1mm)))
 
 (rule "target length and skew"
