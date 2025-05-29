@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.32,
-          "width": 0.32
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -495,23 +495,29 @@
         "diff_pair_width": 0.123952,
         "name": "100_ohm_diff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(148, 255, 166)",
         "track_width": 0.1184
       },
       {
         "name": "DDR_AC",
         "pcb_color": "rgb(255, 45, 215)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 172, 24)",
         "track_width": 0.1184
       },
       {
         "name": "DDR_DQ",
         "pcb_color": "rgb(84, 255, 118)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(255, 45, 64)",
         "track_width": 0.1184
+      },
+      {
+        "name": "SDMMC2",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(88, 208, 255)"
       }
     ],
     "meta": {
@@ -585,10 +591,12 @@
         "DDR_AC"
       ],
       "/DDR/DDR_CLK_N": [
-        "100_ohm_diff"
+        "100_ohm_diff",
+        "DDR_CLK_class"
       ],
       "/DDR/DDR_CLK_P": [
-        "100_ohm_diff"
+        "100_ohm_diff",
+        "DDR_CLK_class"
       ],
       "/DDR/DDR_CSN": [
         "DDR_AC"
@@ -674,6 +682,36 @@
       ],
       "/DDR/DDR_WEN": [
         "DDR_AC"
+      ],
+      "SDMMC2_CK": [
+        "SDMMC2"
+      ],
+      "SDMMC2_CMD": [
+        "SDMMC2"
+      ],
+      "SDMMC2_D0": [
+        "SDMMC2"
+      ],
+      "SDMMC2_D1": [
+        "SDMMC2"
+      ],
+      "SDMMC2_D2": [
+        "SDMMC2"
+      ],
+      "SDMMC2_D3": [
+        "SDMMC2"
+      ],
+      "SDMMC2_D4": [
+        "SDMMC2"
+      ],
+      "SDMMC2_D5": [
+        "SDMMC2"
+      ],
+      "SDMMC2_D6": [
+        "SDMMC2"
+      ],
+      "SDMMC2_D7": [
+        "SDMMC2"
       ]
     },
     "netclass_patterns": []

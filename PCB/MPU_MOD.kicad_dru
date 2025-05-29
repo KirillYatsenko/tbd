@@ -1,10 +1,29 @@
 (version 1)
+
+
+# DDR
+
+# DDR_CLK ( DDR_CLK_class)  must be the longest signal in DDR bus
+
+# That said, the longest signal trace is DDR_DQ0 at 27.9mm, so the DDR_CLK should 
+# 	be length-matched to at least 28mm.
+
 (rule "target length and skew"
-      (condition "A.hasNetclass('DDR_DQ')")
-      (constraint length (min 25.2mm) (opt 26.2mm) (max 26.2mm))
+      (condition "A.hasNetclass('DDR_CLK_class')")
+      (constraint length (min 28mm) (opt 28mm) (max 28mm))
       (constraint skew (max 0.1mm)))
+
+# Length of A/C must be from 0 to 40 mils (1.016 mm) shorter than CLK_N / CLK_P length 
 
 (rule "target length and skew"
       (condition "A.hasNetclass('DDR_AC')")
-      (constraint length (min 13.87mm) (opt 14.88mm) (max 14.88mm))
+      (constraint length (min 27mm) (opt 28mm) (max 28mm))
+      (constraint skew (max 0.1mm)))
+
+# Length of DQS_N/DQS_P must be from 0 to 590 mils (14.986 mm) shorter than CLK_N / CLK_P length 
+# DQ/DQM to DQS_N/DQS_P +/- 40 mils (1.016 mm)
+
+(rule "target length and skew"
+      (condition "A.hasNetclass('DDR_DQ')")
+      (constraint length (min 27mm) (opt 28mm) (max 28mm))
       (constraint skew (max 0.1mm)))
