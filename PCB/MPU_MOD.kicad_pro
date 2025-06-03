@@ -683,6 +683,9 @@
       "/DDR/DDR_WEN": [
         "DDR_AC"
       ],
+      "Net-(U501A-CLK)": [
+        "SDMMC2"
+      ],
       "SDMMC2_CK": [
         "SDMMC2"
       ],
