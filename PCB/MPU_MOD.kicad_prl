@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 6,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
@@ -142,7 +142,6 @@
       "Net-(U301A-VDD1V2_DSI_PHY)",
       "Net-(U301A-VDDA1V1_REG)",
       "Net-(U301A-VDDA1V8_DSI)",
-      "Net-(U501A-VDDI)",
       "Net-(U301C-PC14)",
       "Net-(U301C-PC15)",
       "Net-(U301E-NRST_CORE)",
@@ -173,7 +172,6 @@
       "Net-(U203-~{RST})",
       "Net-(U301B-DDR_ZQ)",
       "Net-(U401-ZQ)",
-      "Net-(U501A-CLK)",
       "unconnected-(R702-Pad1)",
       "unconnected-(R703-Pad2)",
       "Net-(U301E-PDR_ON_CORE)",
@@ -294,25 +292,6 @@
       "unconnected-(U401-NC-PadJ1)",
       "unconnected-(U401-NC__2-PadL1)",
       "unconnected-(U401-NC__1-PadJ9)",
-      "Net-(U501B-NC_5-PadH1)",
-      "Net-(U501A-NC_1-PadA1)",
-      "Net-(U501A-NC_4-PadE14)",
-      "Net-(U501A-NC_2-PadB11)",
-      "unconnected-(U501A-VSF2-PadE10)",
-      "unconnected-(U501B-RFU_K6-PadK6)",
-      "Net-(U501A-NC_3-PadD1)",
-      "unconnected-(U501B-RFU_P7-PadP7)",
-      "unconnected-(U501B-RFU_E5-PadE5)",
-      "unconnected-(U501B-RFU_K7-PadK7)",
-      "unconnected-(U501A-VSF4-PadK10)",
-      "unconnected-(U501A-DS-PadH5)",
-      "unconnected-(U501A-VSF1-PadE9)",
-      "unconnected-(U501A-VSF3-PadF10)",
-      "unconnected-(U501A-VSF5-PadE8)",
-      "unconnected-(U501A-VSF6-PadG10)",
-      "unconnected-(U501B-RFU_P10-PadP10)",
-      "unconnected-(U501B-RFU_A7-PadA7)",
-      "unconnected-(U501B-RFU_G3-PadG3)",
       "Net-(U502-I{slash}O_4)",
       "unconnected-(U901-NC-Pad59)",
       "unconnected-(U901-USB2_RREF-Pad50)",
@@ -417,6 +396,8 @@
       false,
       false,
       false,
+      false,
+      false,
       false
     ],
     "col_order": [
@@ -433,7 +414,9 @@
       10,
       11,
       12,
-      13
+      13,
+      14,
+      15
     ],
     "col_widths": [
       162,

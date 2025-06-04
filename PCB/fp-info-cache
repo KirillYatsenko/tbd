@@ -1,4 +1,4 @@
-25254345715971126
+25257843156058160
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101332,6 +101332,13 @@ ESDA7P120-1U1M
 2
 2
 lib
+FBGA100_ISI
+
+IS21ES08GA-JQLI-TR 
+0
+100
+100
+lib
 GCT_MEM2090-00-145-00-A_REVA
 
 
@@ -101415,6 +101422,13 @@ SON50P300X200X60-10N
 0
 10
 10
+lib
+ST_LFBGA-354_16x16mm_Layout19x19_P0.8mm
+ST LFBGA-354, 16.0x16.0mm, 354 Ball, 19x19 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32mp151a.pdf
+BGA 354 0.8
+0
+354
+354
 lib
 SW_DS04-254-2-03BK-SMT
 

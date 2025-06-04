@@ -36,6 +36,6 @@
 # Mismatch within DAT0~DAT7 < 250 mil (6.3mm)
 
 (rule "target length and skew"
-      (condition "A.hasNetclass('DDR_DQ')")
+      (condition "A.hasNetclass('SDMMC2')")
       (constraint length (min 27mm) (opt 28mm) (max 28mm))
       (constraint skew (max 0.1mm)))

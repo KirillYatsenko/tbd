@@ -23,4 +23,5 @@
   (lib (name "FUSB302BMPX")(type "KiCad")(uri "${KIPRJMOD}/lib/FUSB302BMPX.kicad_sym")(options "")(descr ""))
   (lib (name "ESDA7P120-1U1M")(type "KiCad")(uri "${KIPRJMOD}/lib/ESDA7P120-1U1M.kicad_sym")(options "")(descr ""))
   (lib (name "MT41K256M16TW-107_P_test")(type "KiCad")(uri "K:/Folder/tbd/MT41K256M16TW-107_P_test.kicad_sym")(options "")(descr ""))
+  (lib (name "IS21ES08GA-JQLI")(type "KiCad")(uri "${KIPRJMOD}/lib/IS21ES08GA-JQLI.kicad_sym")(options "")(descr ""))
 )
