@@ -24,4 +24,7 @@
   (lib (name "ESDA7P120-1U1M")(type "KiCad")(uri "${KIPRJMOD}/lib/ESDA7P120-1U1M.kicad_sym")(options "")(descr ""))
   (lib (name "MT41K256M16TW-107_P_test")(type "KiCad")(uri "K:/Folder/tbd/MT41K256M16TW-107_P_test.kicad_sym")(options "")(descr ""))
   (lib (name "IS21ES08GA-JQLI")(type "KiCad")(uri "${KIPRJMOD}/lib/IS21ES08GA-JQLI.kicad_sym")(options "")(descr ""))
+  (lib (name "STUSB1600AQTR")(type "KiCad")(uri "${KIPRJMOD}/lib/STUSB1600AQTR.kicad_sym")(options "")(descr ""))
+  (lib (name "STL9P3LLH6")(type "KiCad")(uri "${KIPRJMOD}/lib/STL9P3LLH6.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ24298")(type "KiCad")(uri "${KIPRJMOD}/lib/BQ24298.kicad_sym")(options "")(descr ""))
 )

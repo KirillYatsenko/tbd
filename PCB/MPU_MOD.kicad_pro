@@ -495,28 +495,40 @@
         "diff_pair_width": 0.123952,
         "name": "100_ohm_diff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgb(148, 255, 166)",
         "track_width": 0.1184
       },
       {
         "name": "DDR_AC",
         "pcb_color": "rgb(255, 45, 215)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgb(255, 172, 24)",
         "track_width": 0.1184
       },
       {
         "name": "DDR_DQ",
         "pcb_color": "rgb(84, 255, 118)",
-        "priority": 3,
+        "priority": 5,
         "schematic_color": "rgb(255, 45, 64)",
         "track_width": 0.1184
       },
       {
-        "name": "SDMMC2",
+        "name": "HS_intrf",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "PWM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "SDMMC2",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
         "schematic_color": "rgb(88, 208, 255)",
         "track_width": 0.1443
       }
@@ -528,6 +540,9 @@
       "VDD_DDR": "rgb(255, 233, 136)"
     },
     "netclass_assignments": {
+      "+BATT": [
+        "PWM"
+      ],
       "/DDR/DDR_A0": [
         "DDR_AC"
       ],
@@ -684,8 +699,132 @@
       "/DDR/DDR_WEN": [
         "DDR_AC"
       ],
+      "/PWR/BATT_T": [
+        "PWM"
+      ],
+      "/PWR/REGN": [
+        "PWM"
+      ],
+      "3V3": [
+        "PWM"
+      ],
+      "BAT_FUEL_ALARM": [
+        "PWM"
+      ],
+      "BAT_FUEL_RSDTIO": [
+        "PWM"
+      ],
+      "CHRG_NPG": [
+        "PWM"
+      ],
+      "CHRG_OFF": [
+        "PWM"
+      ],
+      "CHRG_OTG_ON": [
+        "PWM"
+      ],
+      "CHRG_STAT": [
+        "PWM"
+      ],
+      "GND": [
+        "HS_intrf",
+        "PWM"
+      ],
+      "INT_USB_ctrl": [
+        "HS_intrf"
+      ],
+      "NRST": [
+        "PWM"
+      ],
+      "Net-(BT201--)": [
+        "PWM"
+      ],
+      "Net-(C206-Pad1)": [
+        "PWM"
+      ],
+      "Net-(Q1-Pad1)": [
+        "HS_intrf"
+      ],
+      "Net-(Q1-Pad5)": [
+        "HS_intrf"
+      ],
+      "Net-(TP801-Pad1)": [
+        "HS_intrf"
+      ],
+      "Net-(U201-BATD{slash}CD)": [
+        "PWM"
+      ],
+      "Net-(U201-VIN)": [
+        "PWM"
+      ],
+      "Net-(U202-BTST)": [
+        "PWM"
+      ],
+      "Net-(U202-ICHG)": [
+        "PWM"
+      ],
+      "Net-(U202-ILIM)": [
+        "PWM"
+      ],
+      "Net-(U202-PMID)": [
+        "PWM"
+      ],
+      "Net-(U202-STAT)": [
+        "PWM"
+      ],
+      "Net-(U202-VSET)": [
+        "PWM"
+      ],
+      "Net-(U202-~{CE})": [
+        "PWM"
+      ],
+      "Net-(U202-~{PG})": [
+        "PWM"
+      ],
+      "Net-(U203-INTLDO)": [
+        "PWM"
+      ],
+      "Net-(U203-LDO1OUT)": [
+        "PWM"
+      ],
+      "Net-(U203-LDO2OUT)": [
+        "PWM"
+      ],
+      "Net-(U203-LDO6OUT)": [
+        "PWM"
+      ],
+      "Net-(U203-VLX1)": [
+        "PWM"
+      ],
+      "Net-(U203-VLX2)": [
+        "PWM"
+      ],
+      "Net-(U203-VLX3)": [
+        "PWM"
+      ],
+      "Net-(U203-VLX4)": [
+        "PWM"
+      ],
+      "Net-(U203-~{RST})": [
+        "PWM"
+      ],
+      "Net-(U301F-USB_RREF)": [
+        "HS_intrf"
+      ],
       "Net-(U501A-CLK)": [
         "SDMMC2"
+      ],
+      "PMIC_PA0_WKUP_INTR": [
+        "PWM"
+      ],
+      "PMIC_WAKEUP": [
+        "PWM"
+      ],
+      "PWR_ON": [
+        "PWM"
+      ],
+      "PWR_SW_WAKE_UP": [
+        "PWM"
       ],
       "SDMMC2_CK": [
         "SDMMC2"
@@ -716,6 +855,108 @@
       ],
       "SDMMC2_D7": [
         "SDMMC2"
+      ],
+      "SYS_I2C4_SCL": [
+        "HS_intrf",
+        "PWM"
+      ],
+      "SYS_I2C4_SDA": [
+        "HS_intrf",
+        "PWM"
+      ],
+      "USB_CC1": [
+        "HS_intrf"
+      ],
+      "USB_CC2": [
+        "HS_intrf"
+      ],
+      "USB_D+": [
+        "HS_intrf",
+        "PWM"
+      ],
+      "USB_D-": [
+        "HS_intrf",
+        "PWM"
+      ],
+      "VDD": [
+        "HS_intrf",
+        "PWM"
+      ],
+      "VDDA": [
+        "PWM"
+      ],
+      "VDD_CORE": [
+        "PWM"
+      ],
+      "VDD_DDR": [
+        "PWM"
+      ],
+      "VDD_USB": [
+        "PWM"
+      ],
+      "VIN": [
+        "PWM"
+      ],
+      "VREF_DDR": [
+        "PWM"
+      ],
+      "VTT_DDR": [
+        "PWM"
+      ],
+      "V_USB": [
+        "HS_intrf",
+        "PWM"
+      ],
+      "unconnected-(J801-SBU1-PadA8)": [
+        "HS_intrf"
+      ],
+      "unconnected-(J801-SBU2-PadB8)": [
+        "HS_intrf"
+      ],
+      "unconnected-(Q1-Pad4)": [
+        "HS_intrf"
+      ],
+      "unconnected-(U203-BSTOUT-Pad34)": [
+        "PWM"
+      ],
+      "unconnected-(U203-SWIN-Pad37)": [
+        "PWM"
+      ],
+      "unconnected-(U203-SWOUT-Pad38)": [
+        "PWM"
+      ],
+      "unconnected-(U203-VBUSOTG-Pad35)": [
+        "PWM"
+      ],
+      "unconnected-(U203-VLXBST-Pad33)": [
+        "PWM"
+      ],
+      "unconnected-(U301F-DSIHOST_CKN-PadA14)": [
+        "HS_intrf"
+      ],
+      "unconnected-(U301F-DSIHOST_CKP-PadB14)": [
+        "HS_intrf"
+      ],
+      "unconnected-(U301F-DSIHOST_D0N-PadA13)": [
+        "HS_intrf"
+      ],
+      "unconnected-(U301F-DSIHOST_D0P-PadB13)": [
+        "HS_intrf"
+      ],
+      "unconnected-(U301F-DSIHOST_D1N-PadA15)": [
+        "HS_intrf"
+      ],
+      "unconnected-(U301F-DSIHOST_D1P-PadB15)": [
+        "HS_intrf"
+      ],
+      "unconnected-(U301F-OTG_VBUS-PadU15)": [
+        "HS_intrf"
+      ],
+      "unconnected-(U301F-USB_DM1-PadW14)": [
+        "HS_intrf"
+      ],
+      "unconnected-(U301F-USB_DP1-PadV14)": [
+        "HS_intrf"
       ]
     },
     "netclass_patterns": []
