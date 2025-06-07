@@ -21273,7 +21273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Library:TP_0.5mm"
 			(at 34.29 83.82 0)
 			(effects
 				(font
@@ -25493,7 +25493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Library:TP_0.5mm"
 			(at 54.61 83.82 0)
 			(effects
 				(font

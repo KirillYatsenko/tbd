@@ -12223,6 +12223,53 @@
 			)
 		)
 	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 407.67 12.7) (xy 407.67 251.46) (xy 298.45 251.46) (xy 298.45 283.21) (xy 297.18 284.48) (xy 12.7 284.48)
+				(xy 12.7 12.7)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid edee6c0a-1410-4768-ad4e-b6ab70ac7d3c)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 59.69 12.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f62675ec-c375-4fc6-a73c-9c90ec3cef9a")
+		(property "Netclass" "RCC_BOOT_RST_DEBUG"
+			(at 60.3885 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -128.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 316.23 107.95 0)
@@ -12251,7 +12298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Library:TP_0.5mm"
 			(at 321.31 107.95 0)
 			(effects
 				(font
@@ -12318,7 +12365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Library:TP_0.5mm"
 			(at 144.78 115.57 0)
 			(effects
 				(font
@@ -13735,7 +13782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Library:TP_0.5mm"
 			(at 328.93 107.95 0)
 			(effects
 				(font
@@ -14040,7 +14087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Library:TP_0.5mm"
 			(at 313.69 107.95 0)
 			(effects
 				(font
@@ -14107,7 +14154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Library:TP_0.5mm"
 			(at 294.64 107.95 0)
 			(effects
 				(font
@@ -14318,7 +14365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Library:TP_0.5mm"
 			(at 300.99 107.95 0)
 			(effects
 				(font
@@ -14385,7 +14432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Library:TP_0.5mm"
 			(at 307.34 107.95 0)
 			(effects
 				(font
@@ -14744,7 +14791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Library:TP_0.5mm"
 			(at 375.92 109.22 0)
 			(effects
 				(font
@@ -17098,7 +17145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Library:TP_0.5mm"
 			(at 151.13 115.57 0)
 			(effects
 				(font
@@ -17696,7 +17743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Library:TP_0.5mm"
 			(at 288.29 107.95 0)
 			(effects
 				(font
